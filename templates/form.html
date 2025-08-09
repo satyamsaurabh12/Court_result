@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Court Case Lookup</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Court Case Lookup</h2>
+        <form method="POST">
+            <label for="case_type">Case Type:</label>
+            <select name="case_type" id="case_type" required>
+                <option value="WPC">WPC</option>
+                <option value="CRL">CRL</option>
+                <option value="CS">CS</option>
+                <!-- Add more case types as needed -->
+            </select>
+
+            <label for="case_number">Case Number:</label>
+            <input type="text" name="case_number" id="case_number" required>
+
+            <label for="case_year">Filing Year:</label>
+            <input type="text" name="case_year" id="case_year" required>
+
+            <input type="submit" value="Search Case">
+        </form>
+    </div>
+</body>
+</html>
