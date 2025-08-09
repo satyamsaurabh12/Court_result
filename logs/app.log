@@ -130,3 +130,370 @@ BSES RAJDHANI POWER LTD.
 2025-08-09 09:31:34,059 - CourtScraperApp - INFO - Found PDF link: https://delhihighcourt.nic.in/app/showlogo/1747031660_6821966c0c484.pdf/2025
 2025-08-09 09:31:34,162 - CourtScraperApp - INFO - Scraping completed for W.P.(C) 4352/2025
 2025-08-09 09:31:34,175 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 09:31:34] "POST / HTTP/1.1" 200 -
+2025-08-09 10:00:02,789 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:00:03,431 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:00:03,434 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:00:03,568 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-09 10:00:03,571 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-09 10:00:03,575 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:00:05,339 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:00:05,706 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:00:05,708 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:00:05,782 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:00:05,791 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:00:19,804 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:00:19,815 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:00:19] "GET / HTTP/1.1" 200 -
+2025-08-09 10:00:19,997 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:00:19] "GET /static/style.css HTTP/1.1" 200 -
+2025-08-09 10:00:20,075 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:00:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-09 10:00:37,817 - CourtScraperApp - INFO - Received case query: W.P.(C) 4253/2025
+2025-08-09 10:00:37,837 - CourtScraperApp - WARNING - Case not found in database. Scraping from web...
+2025-08-09 10:00:37,837 - CourtScraperApp - INFO - Scraping started for W.P.(C) 4253/2025
+2025-08-09 10:00:42,818 - CourtScraperApp - INFO - Opened Delhi High Court case status page
+2025-08-09 10:00:45,216 - CourtScraperApp - INFO - Entered case details in form
+2025-08-09 10:00:45,430 - CourtScraperApp - INFO - Entered captcha: 7065
+2025-08-09 10:00:46,671 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:00:46] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-08-09 10:00:46,739 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:00:46] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-09 10:00:46,760 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:00:46] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-09 10:00:46,873 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:00:46] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=ND67y0PyyYVdf3aYvcdZ HTTP/1.1" 200 -
+2025-08-09 10:00:46,920 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:00:46] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-09 10:01:33,200 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:01:33,722 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:01:33,728 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:01:33,874 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-09 10:01:33,874 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-09 10:01:33,879 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:01:35,329 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:01:35,775 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:01:35,776 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:01:35,855 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:01:35,875 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:01:42,553 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:01:42,563 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:01:42] "GET / HTTP/1.1" 200 -
+2025-08-09 10:01:42,709 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:01:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:01:49,325 - CourtScraperApp - INFO - Received case query: W.P.(C) 4253/2025
+2025-08-09 10:01:49,327 - CourtScraperApp - WARNING - Case not found in database. Scraping from web...
+2025-08-09 10:01:49,336 - CourtScraperApp - INFO - Scraping started for W.P.(C) 4253/2025
+2025-08-09 10:01:52,971 - CourtScraperApp - INFO - Opened Delhi High Court case status page
+2025-08-09 10:01:55,471 - CourtScraperApp - INFO - Entered case details in form
+2025-08-09 10:01:55,701 - CourtScraperApp - INFO - Entered captcha: 3462
+2025-08-09 10:01:55,967 - CourtScraperApp - INFO - Clicked on search button
+2025-08-09 10:01:59,064 - CourtScraperApp - INFO - Extracted parties: SONU SAHANI
+VS.  
+UNION OF INDIA
+2025-08-09 10:01:59,066 - CourtScraperApp - INFO - Extracted hearing date: NA
+2025-08-09 10:01:59,497 - CourtScraperApp - INFO - Clicked on last available order link
+2025-08-09 10:02:02,561 - CourtScraperApp - WARNING - No PDF link found in case details table
+2025-08-09 10:02:06,477 - CourtScraperApp - INFO - Scraping completed for W.P.(C) 4253/2025
+2025-08-09 10:02:06,497 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:02:06] "POST / HTTP/1.1" 200 -
+2025-08-09 10:03:57,276 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:03:57,276 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:03:57] "GET / HTTP/1.1" 200 -
+2025-08-09 10:04:04,593 - CourtScraperApp - INFO - Received case query: W.P.(C) 4523/2025
+2025-08-09 10:04:04,599 - CourtScraperApp - WARNING - Case not found in database. Scraping from web...
+2025-08-09 10:04:04,599 - CourtScraperApp - INFO - Scraping started for W.P.(C) 4523/2025
+2025-08-09 10:04:07,807 - CourtScraperApp - INFO - Opened Delhi High Court case status page
+2025-08-09 10:04:10,211 - CourtScraperApp - INFO - Entered case details in form
+2025-08-09 10:04:10,430 - CourtScraperApp - INFO - Entered captcha: 4388
+2025-08-09 10:04:11,696 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:04:11] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-08-09 10:04:11,750 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:04:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:04:11,758 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:04:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-09 10:04:11,857 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:04:11] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=DLL0rqS2SrptGSY5sDFN HTTP/1.1" 200 -
+2025-08-09 10:10:19,300 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:10:19,562 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:10:19,577 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:10:19,643 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-09 10:10:19,643 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-09 10:10:19,643 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:10:20,377 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:10:20,638 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:10:20,638 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:10:20,679 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:10:20,692 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:10:31,400 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:10:31,408 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:10:31] "GET / HTTP/1.1" 200 -
+2025-08-09 10:10:31,597 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:10:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:10:31,665 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:10:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-09 10:10:47,011 - CourtScraperApp - INFO - Received case query: W.P.(C) 4352/2025
+2025-08-09 10:10:47,046 - CourtScraperApp - INFO - Found case in database, returning stored result.
+2025-08-09 10:10:47,068 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:10:47] "POST / HTTP/1.1" 200 -
+2025-08-09 10:12:11,406 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:12:11,409 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:12:11] "GET / HTTP/1.1" 200 -
+2025-08-09 10:13:12,936 - werkzeug - INFO -  * Detected change in 'C:\\Users\\satyam saurabh\\OneDrive\\Desktop\\Court\\Court_result\\app.py', reloading
+2025-08-09 10:13:13,134 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:13:14,731 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:13:15,154 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:13:15,154 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:13:15,228 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:13:15,244 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:13:31,010 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:13:31,025 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:13:31] "GET / HTTP/1.1" 200 -
+2025-08-09 10:13:31,217 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:13:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:13:40,530 - CourtScraperApp - INFO - Received case query:  256/2025
+2025-08-09 10:13:40,548 - CourtScraperApp - WARNING - Case not found in database. Scraping from web...
+2025-08-09 10:13:40,548 - CourtScraperApp - INFO - Scraping started for  256/2025
+2025-08-09 10:13:44,044 - CourtScraperApp - INFO - Opened Delhi High Court case status page
+2025-08-09 10:13:46,381 - CourtScraperApp - INFO - Entered case details in form
+2025-08-09 10:13:46,580 - CourtScraperApp - INFO - Entered captcha: 5307
+2025-08-09 10:13:47,778 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:13:47] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-08-09 10:13:47,836 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:13:47] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:13:47,843 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:13:47] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-09 10:13:47,934 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:13:47] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=c5N8pZXaAMBXZRjFvyQt HTTP/1.1" 200 -
+2025-08-09 10:13:48,007 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:13:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-09 10:14:14,441 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:14:14,811 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:14:14,816 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:14:14,907 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-09 10:14:14,907 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-09 10:14:14,912 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:14:16,351 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:14:16,755 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:14:16,756 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:14:16,830 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:14:16,845 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:14:23,311 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:14:23,320 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:14:23] "GET / HTTP/1.1" 200 -
+2025-08-09 10:14:23,492 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:14:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:14:33,170 - CourtScraperApp - INFO - Received case query: CS(OS) 256/2025
+2025-08-09 10:14:33,184 - CourtScraperApp - WARNING - Case not found in database. Scraping from web...
+2025-08-09 10:14:33,184 - CourtScraperApp - INFO - Scraping started for CS(OS) 256/2025
+2025-08-09 10:14:36,343 - CourtScraperApp - INFO - Opened Delhi High Court case status page
+2025-08-09 10:14:38,733 - CourtScraperApp - INFO - Entered case details in form
+2025-08-09 10:14:38,941 - CourtScraperApp - INFO - Entered captcha: 6424
+2025-08-09 10:14:40,111 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:14:40] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-08-09 10:14:40,148 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:14:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:14:40,164 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:14:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-09 10:14:40,196 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:14:40] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=zaGKY7tnhBUt0rb75NYL HTTP/1.1" 200 -
+2025-08-09 10:14:40,269 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:14:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-09 10:15:23,325 - werkzeug - INFO -  * Detected change in 'C:\\Users\\satyam saurabh\\OneDrive\\Desktop\\Court\\Court_result\\app.py', reloading
+2025-08-09 10:15:23,530 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:15:25,024 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:15:25,464 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:15:25,466 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:15:25,550 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:15:25,571 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:15:38,846 - werkzeug - INFO -  * Detected change in 'C:\\Users\\satyam saurabh\\OneDrive\\Desktop\\Court\\Court_result\\app.py', reloading
+2025-08-09 10:15:39,014 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:15:40,459 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:15:40,869 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:15:40,873 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:15:40,950 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:15:40,956 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:16:03,062 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:16:03,077 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:16:03] "GET / HTTP/1.1" 200 -
+2025-08-09 10:16:03,334 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:16:03] "GET /static/style.css HTTP/1.1" 200 -
+2025-08-09 10:16:03,449 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:16:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-09 10:16:13,027 - CourtScraperApp - INFO - Received case query: CS(OS) 256/2025
+2025-08-09 10:16:13,042 - CourtScraperApp - WARNING - Case not found in database. Scraping from web...
+2025-08-09 10:16:13,042 - CourtScraperApp - INFO - Scraping started for CS(OS) 256/2025
+2025-08-09 10:16:16,187 - CourtScraperApp - INFO - Opened Delhi High Court case status page
+2025-08-09 10:16:18,659 - CourtScraperApp - INFO - Entered case details in form
+2025-08-09 10:16:18,919 - CourtScraperApp - INFO - Entered captcha: 5082
+2025-08-09 10:16:19,173 - CourtScraperApp - INFO - Clicked on search button
+2025-08-09 10:16:22,291 - CourtScraperApp - INFO - Extracted parties: SAURABH PRAKASH & ANR.
+VS.  
+SAMIR PRAKASH & ANR.
+2025-08-09 10:16:22,291 - CourtScraperApp - INFO - Extracted hearing date: 13/11/2025
+2025-08-09 10:16:22,861 - CourtScraperApp - INFO - Clicked on last available order link
+2025-08-09 10:16:25,958 - CourtScraperApp - INFO - Found PDF link: https://delhihighcourt.nic.in/app/showlogo/1753873512_aac1f36fcf24938f_742_2562025.pdf/2025
+2025-08-09 10:16:29,986 - CourtScraperApp - INFO - Scraping completed for CS(OS) 256/2025
+2025-08-09 10:16:30,009 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:16:30] "POST / HTTP/1.1" 200 -
+2025-08-09 10:17:54,039 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:17:54,493 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:17:54,493 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:17:54,595 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-09 10:17:54,596 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-09 10:17:54,599 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:17:55,933 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:17:56,315 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:17:56,317 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:17:56,387 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:17:56,398 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:22:42,611 - werkzeug - INFO -  * Detected change in 'C:\\Users\\satyam saurabh\\OneDrive\\Desktop\\Court\\Court_result\\app.py', reloading
+2025-08-09 10:22:42,856 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:22:44,710 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:22:45,270 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:22:45,273 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:22:45,375 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:22:45,395 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:25:22,574 - werkzeug - INFO -  * Detected change in 'C:\\Users\\satyam saurabh\\OneDrive\\Desktop\\Court\\Court_result\\app.py', reloading
+2025-08-09 10:25:22,879 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:25:24,876 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:25:25,582 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:25:25,584 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:25:25,683 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:25:25,693 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:25:45,503 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:25:45,520 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:25:45] "GET / HTTP/1.1" 200 -
+2025-08-09 10:25:45,724 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:25:45] "GET /static/court-illustration.svg HTTP/1.1" 200 -
+2025-08-09 10:25:48,817 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:25:48,820 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:25:48] "GET / HTTP/1.1" 200 -
+2025-08-09 10:25:48,847 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:25:48] "GET /static/style.css HTTP/1.1" 200 -
+2025-08-09 10:25:48,859 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:25:48] "[36mGET /static/court-illustration.svg HTTP/1.1[0m" 304 -
+2025-08-09 10:25:59,558 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:25:59,558 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:25:59] "GET / HTTP/1.1" 200 -
+2025-08-09 10:25:59,584 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:25:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:25:59,601 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:25:59] "[36mGET /static/court-illustration.svg HTTP/1.1[0m" 304 -
+2025-08-09 10:26:18,847 - CourtScraperApp - INFO - Received case query: WPC 4352/2025
+2025-08-09 10:26:18,865 - CourtScraperApp - WARNING - Case not found in database. Scraping from web...
+2025-08-09 10:26:18,865 - CourtScraperApp - INFO - Scraping started for WPC 4352/2025
+2025-08-09 10:26:22,375 - CourtScraperApp - INFO - Opened Delhi High Court case status page
+2025-08-09 10:26:24,820 - CourtScraperApp - INFO - Entered case details in form
+2025-08-09 10:26:25,101 - CourtScraperApp - INFO - Entered captcha: 2392
+2025-08-09 10:26:26,339 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:26:26] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-08-09 10:26:26,377 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:26:26] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-09 10:26:26,408 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:26:26] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-09 10:26:26,441 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:26:26] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=iBsdtitc9lewPvifS83c HTTP/1.1" 200 -
+2025-08-09 10:26:26,587 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:26:26] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-09 10:26:56,222 - CourtScraperApp - INFO - Received case query: WPC 4352/2025
+2025-08-09 10:26:56,222 - CourtScraperApp - WARNING - Case not found in database. Scraping from web...
+2025-08-09 10:26:56,226 - CourtScraperApp - INFO - Scraping started for WPC 4352/2025
+2025-08-09 10:26:59,432 - CourtScraperApp - INFO - Opened Delhi High Court case status page
+2025-08-09 10:27:01,803 - CourtScraperApp - INFO - Entered case details in form
+2025-08-09 10:27:02,001 - CourtScraperApp - INFO - Entered captcha: 2416
+2025-08-09 10:27:02,255 - CourtScraperApp - INFO - Clicked on search button
+2025-08-09 10:27:05,338 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:27:05] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-08-09 10:27:05,385 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:27:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:27:05,385 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:27:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-09 10:27:05,426 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:27:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=iBsdtitc9lewPvifS83c HTTP/1.1[0m" 304 -
+2025-08-09 10:27:05,466 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:27:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-09 10:27:32,041 - CourtScraperApp - INFO - Received case query: WPC 4352/2025
+2025-08-09 10:27:32,044 - CourtScraperApp - WARNING - Case not found in database. Scraping from web...
+2025-08-09 10:27:32,045 - CourtScraperApp - INFO - Scraping started for WPC 4352/2025
+2025-08-09 10:27:32,473 - werkzeug - INFO -  * Detected change in 'C:\\Users\\satyam saurabh\\OneDrive\\Desktop\\Court\\Court_result\\app.py', reloading
+2025-08-09 10:27:32,654 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:27:34,258 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:27:34,732 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:27:34,732 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:27:34,823 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:27:34,833 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:27:41,021 - CourtScraperApp - INFO - Received case query: CS(OS) 4352/2025
+2025-08-09 10:27:41,037 - CourtScraperApp - WARNING - Case not found in database. Scraping from web...
+2025-08-09 10:27:41,037 - CourtScraperApp - INFO - Scraping started for CS(OS) 4352/2025
+2025-08-09 10:27:44,320 - CourtScraperApp - INFO - Opened Delhi High Court case status page
+2025-08-09 10:27:46,696 - CourtScraperApp - INFO - Entered case details in form
+2025-08-09 10:27:46,900 - CourtScraperApp - INFO - Entered captcha: 4209
+2025-08-09 10:27:47,169 - CourtScraperApp - INFO - Clicked on search button
+2025-08-09 10:27:50,256 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:27:50] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-08-09 10:27:50,475 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:27:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-09 10:27:50,477 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:27:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:27:50,556 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:27:50] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=dYd7uBKRAW874JexuFbI HTTP/1.1" 200 -
+2025-08-09 10:27:50,584 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:27:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-09 10:28:05,948 - CourtScraperApp - INFO - Received case query: CS(OS) 256/2025
+2025-08-09 10:28:05,954 - CourtScraperApp - INFO - Found case in database, returning stored result.
+2025-08-09 10:28:05,970 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:28:05] "POST / HTTP/1.1" 200 -
+2025-08-09 10:28:05,997 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:28:05] "[36mGET /static/court-illustration.svg HTTP/1.1[0m" 304 -
+2025-08-09 10:28:27,603 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:28:27,608 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:28:27] "GET / HTTP/1.1" 200 -
+2025-08-09 10:28:27,657 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:28:27] "[36mGET /static/court-illustration.svg HTTP/1.1[0m" 304 -
+2025-08-09 10:28:27,657 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:28:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:30:11,332 - werkzeug - INFO -  * Detected change in 'C:\\Users\\satyam saurabh\\OneDrive\\Desktop\\Court\\Court_result\\app.py', reloading
+2025-08-09 10:30:11,567 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:30:13,374 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:30:13,941 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:30:13,941 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:30:14,034 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:30:14,050 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:30:30,227 - werkzeug - INFO -  * Detected change in 'C:\\Users\\satyam saurabh\\OneDrive\\Desktop\\Court\\Court_result\\scraper.py', reloading
+2025-08-09 10:30:30,482 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:30:32,236 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:30:32,769 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:30:32,773 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:30:32,869 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:30:32,893 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:30:45,285 - werkzeug - INFO -  * Detected change in 'C:\\Users\\satyam saurabh\\OneDrive\\Desktop\\Court\\Court_result\\scraper.py', reloading
+2025-08-09 10:30:45,528 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:30:47,760 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:30:48,300 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:30:48,302 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:30:48,400 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:30:48,421 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:31:08,410 - werkzeug - INFO -  * Detected change in 'C:\\Users\\satyam saurabh\\OneDrive\\Desktop\\Court\\Court_result\\scraper.py', reloading
+2025-08-09 10:31:08,603 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:31:10,065 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:31:10,491 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:31:10,491 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:31:10,571 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:31:10,590 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:31:49,037 - werkzeug - INFO -  * Detected change in 'C:\\Users\\satyam saurabh\\OneDrive\\Desktop\\Court\\Court_result\\app.py', reloading
+2025-08-09 10:31:49,268 - werkzeug - INFO -  * Restarting with stat
+2025-08-09 10:31:50,834 - CourtScraperApp - INFO - Creating  a database
+
+2025-08-09 10:31:51,305 - CourtScraperApp - INFO - Database tables created or verified.
+2025-08-09 10:31:51,307 - CourtScraperApp - INFO - Starting Flask server...
+2025-08-09 10:31:51,388 - werkzeug - WARNING -  * Debugger is active!
+2025-08-09 10:31:51,399 - werkzeug - INFO -  * Debugger PIN: 107-177-084
+2025-08-09 10:32:05,639 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:32:05,656 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:32:05] "GET / HTTP/1.1" 200 -
+2025-08-09 10:32:05,894 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:32:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:32:05,938 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:32:05] "[36mGET /static/court-illustration.svg HTTP/1.1[0m" 304 -
+2025-08-09 10:32:12,883 - CourtScraperApp - INFO - Received case query: CS(OS) 256/2025
+2025-08-09 10:32:12,899 - CourtScraperApp - INFO - Found case in database, returning stored result.
+2025-08-09 10:32:12,907 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:32:12] "POST / HTTP/1.1" 200 -
+2025-08-09 10:32:12,941 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:32:12] "[36mGET /static/court-illustration.svg HTTP/1.1[0m" 304 -
+2025-08-09 10:32:15,928 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:32:15,928 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:32:15] "GET / HTTP/1.1" 200 -
+2025-08-09 10:32:20,664 - CourtScraperApp - INFO - Received case query: CS(OS) 2568/2025
+2025-08-09 10:32:20,668 - CourtScraperApp - WARNING - Case not found in database. Scraping from web...
+2025-08-09 10:32:20,669 - CourtScraperApp - INFO - Scraping started for CS(OS) 2568/2025
+2025-08-09 10:32:24,207 - CourtScraperApp - INFO - Opened Delhi High Court case status page
+2025-08-09 10:32:26,647 - CourtScraperApp - INFO - Entered case details in form
+2025-08-09 10:32:26,906 - CourtScraperApp - INFO - Entered captcha text from page
+2025-08-09 10:32:28,115 - CourtScraperApp - ERROR - Web driver error: Message: element click intercepted: Element is not clickable at point (120, 586)
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6eb7f6b55+79621]
+	GetHandleVerifier [0x0x7ff6eb7f6bb0+79712]
+	(No symbol) [0x0x7ff6eb58c0ea]
+	(No symbol) [0x0x7ff6eb5eaf69]
+	(No symbol) [0x0x7ff6eb5e8902]
+	(No symbol) [0x0x7ff6eb5e5941]
+	(No symbol) [0x0x7ff6eb5e4831]
+	(No symbol) [0x0x7ff6eb5d6078]
+	(No symbol) [0x0x7ff6eb60b13a]
+	(No symbol) [0x0x7ff6eb5d5926]
+	(No symbol) [0x0x7ff6eb60b350]
+	(No symbol) [0x0x7ff6eb6333d0]
+	(No symbol) [0x0x7ff6eb60af13]
+	(No symbol) [0x0x7ff6eb5d4151]
+	(No symbol) [0x0x7ff6eb5d4ee3]
+	GetHandleVerifier [0x0x7ff6ebab686d+2962461]
+	GetHandleVerifier [0x0x7ff6ebab0b8d+2938685]
+	GetHandleVerifier [0x0x7ff6ebacf74d+3064573]
+	GetHandleVerifier [0x0x7ff6eb810c9e+186446]
+	GetHandleVerifier [0x0x7ff6eb818a6f+218655]
+	GetHandleVerifier [0x0x7ff6eb7ff944+115956]
+	GetHandleVerifier [0x0x7ff6eb7ffaf9+116393]
+	GetHandleVerifier [0x0x7ff6eb7e5f28+10968]
+	BaseThreadInitThunk [0x0x7ffe7ea726bd+29]
+	RtlUserThreadStart [0x0x7ffe7ef6dfb8+40]
+
+2025-08-09 10:32:30,346 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:32:30] "POST / HTTP/1.1" 200 -
+2025-08-09 10:32:30,379 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:32:30] "[36mGET /static/court-illustration.svg HTTP/1.1[0m" 304 -
+2025-08-09 10:33:04,099 - CourtScraperApp - INFO - Rendering search form page.
+2025-08-09 10:33:04,101 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:33:04] "GET / HTTP/1.1" 200 -
+2025-08-09 10:33:04,137 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:33:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-09 10:33:04,146 - werkzeug - INFO - 127.0.0.1 - - [09/Aug/2025 10:33:04] "[36mGET /static/court-illustration.svg HTTP/1.1[0m" 304 -

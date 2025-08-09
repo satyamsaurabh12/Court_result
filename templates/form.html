@@ -1,29 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Court Case Lookup</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Court-Data Fetcher and Mini-Dashboard</title>
+    <!-- Tailwind for quick layout primitives -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <h2>Court Case Lookup</h2>
-        <form method="POST">
-            <label for="case_type">Case Type:</label>
-            <select name="case_type" id="case_type" required>
-                <option value="WPC">WPC</option>
-                <option value="CRL">CRL</option>
-                <option value="CS">CS</option>
-                <!-- Add more case types as needed -->
-            </select>
+<body class="animated-gradient">
+    <!-- Decorative animated orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
 
-            <label for="case_number">Case Number:</label>
-            <input type="text" name="case_number" id="case_number" required>
+    <header class="w-full">
+        <div class="page py-6 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="logo">CD</div>
+                <div>
+                    <h1 class="text-2xl font-bold tracking-tight text-slate-800">Court-Data Fetcher</h1>
+                    <p class="text-slate-500 text-sm">Mini-Dashboard for Indian court cases</p>
+                </div>
+            </div>
+            <div class="pill">Target: Delhi High Court</div>
+        </div>
+    </header>
 
-            <label for="case_year">Filing Year:</label>
-            <input type="text" name="case_year" id="case_year" required>
+    <main class="page py-4">
+        <section class="grid gap-8 lg:grid-cols-2 items-center">
+            <!-- Hero copy -->
+            <div class="space-y-5">
+                <span class="badge">New</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold leading-tight text-slate-900 fade-up">
+                    Court-Data Fetcher and Mini-Dashboard
+                </h2>
+                <p class="text-slate-700 leading-relaxed fade-up delay-1">
+                    Choose a Case Type and Case Number to fetch metadata and the latest
+                    orders/judgments. This demo focuses on the
+                    <strong>Delhi High Court</strong>.
+                </p>
+                <ul class="list-disc pl-5 text-slate-700 space-y-1 fade-up delay-2">
+                    <li>Fast lookups from database or live scrape when needed</li>
+                    <li>Key details like parties, filing date, next hearing</li>
+                    <li>Direct link to order/judgment PDF when available</li>
+                </ul>
 
-            <input type="submit" value="Search Case">
-        </form>
-    </div>
+                <div class="flex items-center gap-3 fade-up delay-3">
+                    <div class="status-dot animate-pulse"></div>
+                    <p class="text-slate-600 text-sm">Live prototype — updated as you search</p>
+                </div>
+            </div>
+
+            <!-- Form card -->
+            <div class="card fade-up delay-2">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-xl font-semibold text-slate-800">Search a Case</h3>
+                    <span class="hint">Delhi High Court</span>
+                </div>
+                {% if error_message %}
+                    <div class="rounded-lg border border-red-200 bg-red-50 text-red-800 px-4 py-3 mb-4 text-sm">
+                        {{ error_message }}
+                    </div>
+                {% endif %}
+                <form method="POST" class="space-y-4">
+                    <div>
+                        <label for="case_type">Case Type</label>
+                        <select name="case_type" id="case_type" required>
+                            <option value="WPC">WPC</option>
+                            <option value="CRL">CRL</option>
+                            <option value="CS">CS</option>
+                            <option value="CS(OS)">CS(OS)</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="case_number">Case Number</label>
+                        <input type="text" name="case_number" id="case_number" placeholder="e.g. 1234" required />
+                    </div>
+
+                    <div>
+                        <label for="case_year">Filing Year</label>
+                        <input type="text" name="case_year" id="case_year" placeholder="e.g. 2023" required />
+                    </div>
+
+                    <button type="submit" class="btn-primary">Fetch Case</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Illustration -->
+        <section class="hero-illustration fade-up delay-3">
+            <img src="{{ url_for('static', filename='court-illustration.svg') }}" alt="Court data illustration" class="hero-image" />
+        </section>
+
+        <footer class="py-8 text-center text-slate-500 text-sm">
+            Built for educational purposes. Source: <span class="font-medium">Delhi High Court</span> website.
+        </footer>
+    </main>
 </body>
 </html>
